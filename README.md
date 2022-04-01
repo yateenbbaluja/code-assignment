@@ -4,13 +4,12 @@
 # To re-check please install:
  - npm install node-fetch, npm install xhr2, npm install, npm install fs, npm install form-data
  - Also, we can check the package.json file for the packages installed.
- - 
- - 
- - Please follow below instructions.
- - a. "node list-get.js" to GET the data from the API and in the terminal/console it will give the payload.
- - b. "node add-post.js" will add the data mentioned inside the code to the API. Please change the data inside the code to see the changes in the API.
- - c. "node delete.js" to delete the data from the API. As of now I'm getting "Authentication Missing Token" error.
- - d. 'node update-put.js" to append the data to the API.  As of now I'm getting "Authentication Missing Token" error.
+ 
+ # Please follow below instructions.
+ - A. "node list-get.js" to GET the data from the API and in the terminal/console it will give the payload.
+ - B. "node add-post.js" will add the data mentioned inside the code to the API. Please change the data inside the code to see the changes in the API.
+ - C. "node delete.js" to delete the data from the API. As of now I'm getting "Authentication Missing Token" error.
+ - D. 'node update-put.js" to append the data to the API.  As of now I'm getting "Authentication Missing Token" error.
 
 # SUMMARY
  - Passing the API url to "GET","POST","PUT" and "DELETE" calling methods. For the "PUT" and "POST" I added random data to the API whereas in "PUT" I tried to append the data as I need to update the existing data in the API.
