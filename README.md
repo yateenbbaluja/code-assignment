@@ -14,9 +14,11 @@
 # SUMMARY
  - Passing the API url to "GET","POST","PUT" and "DELETE" calling methods. For the "PUT" and "POST" I added random data to the API whereas in "PUT" I tried to append the data as I need to update the existing data in the API.
  - The idea is to create different files for different purposes. Just to make the code more modular. If anyone wants to add or change the code then the other processes will not get affected.
+ - Also checks the images attached.
 
 # FUTRUE IMPROVEMENTS
 
  - 1. I can add authentication.
  - 2. I can make one method which will call all the other defined processes in different files for the different functions like "GET", "POST" and others.
  - 3. More refinement in the code in the terms of calling the functions. For e.g., GET/device1/ID, POST/device10/ID to make it more efficient. 
+ - 4. Can add .gitignore file as well to avoid unwanted hidden files.
